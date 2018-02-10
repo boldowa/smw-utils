@@ -1,0 +1,18 @@
+[submodule "unko"]
+	path = unko
+	url = git@github.com:boldowa/unko.git
+[submodule "GIEPY"]
+	path = GIEPY
+	url = git@github.com:boldowa/GIEPY.git
+[submodule "jansson"]
+	path = jansson
+	url = https://github.com/akheron/jansson.git
+[submodule "bolib"]
+	path = bolib
+	url = git@github.com:boldowa/bolib.git
+[submodule "asar"]
+	path = asar
+	url = git@github.com:boldowa/asar.git
+[submodule "Trasm"]
+	path = Trasm
+	url = git@github.com:boldowa/Trasm.git
