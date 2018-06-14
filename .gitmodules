@@ -16,3 +16,9 @@
 [submodule "Trasm"]
 	path = Trasm
 	url = git@github.com:boldowa/Trasm.git
+[submodule "bolib2"]
+	path = bolib2
+	url = git@github.com:boldowa/bolib2
+[submodule "cpputest"]
+	path = cpputest
+	url = https://github.com/cpputest/cpputest
