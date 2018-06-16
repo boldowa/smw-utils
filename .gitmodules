@@ -10,9 +10,6 @@
 [submodule "bolib"]
 	path = bolib
 	url = git@github.com:boldowa/bolib.git
-[submodule "asar"]
-	path = asar
-	url = git@github.com:boldowa/asar.git
 [submodule "Trasm"]
 	path = Trasm
 	url = git@github.com:boldowa/Trasm.git
@@ -22,3 +19,6 @@
 [submodule "cpputest"]
 	path = cpputest
 	url = https://github.com/cpputest/cpputest
+[submodule "asar"]
+	path = asar
+	url = https://github.com/RPGHacker/asar

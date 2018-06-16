@@ -1,0 +1,15 @@
+/**
+ * @file @GenerateCompilerH_FName@
+ */
+#ifndef @GenerateCompilerH_FNUpper@
+#define @GenerateCompilerH_FNUpper@
+
+/* C Compiler */
+#define @GenerateCompilerH_Prefix@_C_COMPILER           "@GenerateCompilerH_C_COMPILER@(@CMAKE_C_COMPILER_ID@)"
+#define @GenerateCompilerH_Prefix@_C_COMPILER_VERSION   "@CMAKE_C_COMPILER_VERSION@"
+
+/* CXX Compiler */
+#define @GenerateCompilerH_Prefix@_CXX_COMPILER         "@GenerateCompilerH_CXX_COMPILER@(@CMAKE_CXX_COMPILER_ID@)"
+#define @GenerateCompilerH_Prefix@_CXX_COMPILER_VERSION "@CMAKE_CXX_COMPILER_VERSION@"
+
+#endif /* @GenerateCompilerH_FNUpper@ */

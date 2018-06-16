@@ -18,6 +18,7 @@ if(NOT CMAKE_BUILD_TYPE STREQUAL "Debug")
 endif(NOT CMAKE_BUILD_TYPE STREQUAL "Debug")
 
 include(cmake/macs.cmake)
+include(cmake/GenerateCompilerH.cmake)
 
 if(MSVC)
 	option(UNICODE "Use UNICODE" OFF)
@@ -55,7 +56,9 @@ option(JANSSON_INSTALL "without jansson's install feature" OFF)
 option(JANSSON_BUILD_DOCS "without jannnson's doc builds" OFF)
 # Asar
 option(ASAR_GEN_EXE "generate asar standalone executable" OFF)
-option(ASAR_GEN_TEST "executes asar test code" OFF)
+option(ASAR_GEN_EXE_TEST "executes asar test code for exe" OFF)
+option(ASAR_GEN_DLL_TEST "executes asar test code for dll" OFF)
+option(ASAR_COVERAGE "Asar coverage" OFF)
 # bolib2
 option(BOLIB2_EXECUTE_TEST "tests bolib2" OFF)
 
