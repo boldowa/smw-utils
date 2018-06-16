@@ -32,7 +32,7 @@ endif(UNICODE)
 link_directories(".")
 
 # GLOBAL Compile flags
-if(UNIX)
+if(UNIX OR MINGW)
 	set(CMAKE_C_FLAGS "-std=c99 -fPIC")
 	set(CMAKE_CXX_FLAGS "-fPIC")
 	set(CMAKE_C_FLAGS_DEBUG "-O0 -g3")
@@ -42,7 +42,7 @@ if(UNIX)
 	set(CMAKE_EXE_LINKER_FLAGS_RELEASE "-s -Wl,--gc-sections")
 	#set(CMAKE_STATIC_LINKER_FLAGS_RELEASE "-T")
 	set(CMAKE_SHARED_LINKER_FLAGS_RELEASE "-s -Wl,--gc-sections")
-endif(UNIX)
+endif(UNIX OR MINGW)
 
 
 #--- Set build options
