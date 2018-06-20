@@ -12,4 +12,10 @@
 #define @GenerateCompilerH_Prefix@_CXX_COMPILER         "@GenerateCompilerH_CXX_COMPILER@(@CMAKE_CXX_COMPILER_ID@)"
 #define @GenerateCompilerH_Prefix@_CXX_COMPILER_VERSION "@CMAKE_CXX_COMPILER_VERSION@"
 
+/* Git information */
+#define @GenerateCompilerH_Prefix@_GIT_BRANCH      "@GenerateCompilerH_GitBranchName@"
+#define @GenerateCompilerH_Prefix@_GIT_COMMIT_NUM  @GenerateCompilerH_GitCommits@
+#define @GenerateCompilerH_Prefix@_GIT_TAG         "@GenerateCompilerH_GitTag@"
+#define @GenerateCompilerH_Prefix@_GIT_REVISION    "@GenerateCompilerH_GitRevision@"
+
 #endif /* @GenerateCompilerH_FNUpper@ */
