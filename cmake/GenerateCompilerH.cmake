@@ -2,7 +2,7 @@
 # GenerateCompilerH
 #-------------------------------------------------
 
-message(STATUS "GenerateCompilerH: CurrentDir: ${CMAKE_CURRENT_LIST_DIR}")
+#message(STATUS "GenerateCompilerH: CurrentDir: ${CMAKE_CURRENT_LIST_DIR}")
 set(GenerateCompilerH_DIR ${CMAKE_CURRENT_LIST_DIR})
 
 if(NOT "Windows" STREQUAL "${CMAKE_HOST_SYSTEM_NAME}")

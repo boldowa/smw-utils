@@ -7,9 +7,6 @@
 [submodule "jansson"]
 	path = jansson
 	url = https://github.com/akheron/jansson.git
-[submodule "bolib"]
-	path = bolib
-	url = git@github.com:boldowa/bolib.git
 [submodule "Trasm"]
 	path = Trasm
 	url = git@github.com:boldowa/Trasm.git
